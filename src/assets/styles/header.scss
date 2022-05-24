@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 0 2em;
+
+    background-color: #373737;
+    width: 100%;
+    height: 5vh;
+    img{
+        height: 2.5vh;
+        width: auto;
+    }
+}
