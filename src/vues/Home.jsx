@@ -13,15 +13,7 @@ export default class Home extends Component {
 }
 
   async getData() {
-    // const res = await axios.get("https://www.googleapis.com/youtube/v3/search?", {
-    //   params: {
-    //     part: "snippet",
-    //     maxResults: 20,
-    //     q: "reactjs",
-    //     type: "type=video",
-    //     key: "AIzaSyAx71_gEUkjvuD9k_-93GGJelqDzZjlWq8"
-    //   }
-    // })
+    
     const res = data
     
     return await res

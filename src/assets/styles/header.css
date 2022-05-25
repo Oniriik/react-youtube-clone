@@ -23,7 +23,7 @@
   width: auto;
 }
 
-.header form {
+.header .searchBar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,7 +36,7 @@
           align-items: center;
 }
 
-.header form input {
+.header .searchBar input {
   border: none;
   width: 450px;
   height: 5.5vh;
@@ -44,18 +44,18 @@
   background-color: #181818;
 }
 
-.header form input:focus {
+.header .searchBar input:focus {
   outline: none;
 }
 
-.header form button {
+.header .searchBar button {
   border: 0;
   background-color: #373737;
   width: 4rem;
   height: 5.5vh;
 }
 
-.header form button img {
+.header .searchBar button img {
   -webkit-filter: invert(1);
           filter: invert(1);
 }
