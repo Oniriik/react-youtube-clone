@@ -1,7 +1,46 @@
-@import 'index.scss';
-
 nav{
-    width: 200px;
-    height: 95vh;
-    background-color: #373737;
+    width: 230px;
+    height: 91vh;
+    background-color: #202020;
+    padding: 1rem 0;
+    .nav-block{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        hr{
+            opacity: 0.1;
+            width: 95%;
+        }
+        .links-container{
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding-top: 10px;
+            .link{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+        
+                width: 100%;
+            
+                padding: 0.5rem 2rem;
+                gap: 1.5rem;
+                font-size: 14px;
+                font-weight: 400;
+                transition-duration: 100ms;
+                img{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+            .link:hover{
+                background-color: #4D4D4D;
+                transition-duration: 100ms;
+            }
+        }
+        
+        
+    }
+    
 }

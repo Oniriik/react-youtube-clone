@@ -14,8 +14,23 @@
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     background-color: #181818;
+
+    color: white;
+
     .content{
         display: flex;
         flex-direction: row;
     }
+}
+.home{
+    height: 91vh;
+    width: 100%;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+.video{
+    img{
+        width: 200px;
+    }
+    
 }

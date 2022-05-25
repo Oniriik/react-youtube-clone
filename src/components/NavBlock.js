@@ -10,18 +10,19 @@ export default function NavBlock(props) {
     }
     
     return (
-        <div className="NavBlock">
+        <div className="nav-block">
+             {props.bTop && <hr/>}
             {props.title && <h1>{props.title}</h1>}
-            <div className="NavBlock-links-container">
+            <div className="links-container">
                 {props.names.map((name, index) => (
-                    <Link to={props.links[index]} className='NavBlock-link' key={index} style={{cursor:"pointer"}}>
-                        <img src="#" alt="img" />
+                    <Link to={props.links[index]} className='link' key={index} style={{cursor:"pointer"}}>
+                        <img src={props.icons[index]} alt="img" />
                         <p key={index}>{name}</p>
                     </Link>
                     
                 ))}
             </div>
-
+            {props.bBottom && <hr/>}
         </div>
 
 
