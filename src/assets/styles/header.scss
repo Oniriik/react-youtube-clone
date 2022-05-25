@@ -28,11 +28,14 @@
         input:focus {
             outline: none;
         }
-        button{
+        .button{
             border: 0;
             background-color: #373737;
             width: 4rem;
             height: 5.5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             img{
                 filter: invert(1);
             }

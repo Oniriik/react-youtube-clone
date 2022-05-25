@@ -13,7 +13,7 @@ export default function Home(props) {
             maxResults: 20,
             q: `${searchFilter}`,
             type: "type=video",
-            key: "AIzaSyA9BkGmkMbUESiyeuqzn_EozYC8kzq5Pq0"
+            key: "AIzaSyClzvd3iNUBxI5euNzyihND1Rd6OMzfsP0"
         }
     }).then((result) => {
         setVideos(result.data.items)
@@ -32,7 +32,7 @@ export default function Home(props) {
     <div className='home'>
        {
          videos.map((video, index) => (
-        <DisplayVideo video= {video.snippet} key={index}/>
+        <DisplayVideo video= {video.snippet} />
       ))}
     </div>
 
